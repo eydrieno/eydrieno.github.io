@@ -39,7 +39,7 @@ if($(window).width() > 370) {
 
 // SCROLL TO SECTIONS
 var offset = 50;
-if($(window).width() < 370) {offset = 0;}
+if($(window).width() < 500) {offset = 0;}
 
 $('a[href^="#"]').on('click', function(event) {
 
