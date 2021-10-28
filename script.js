@@ -17,7 +17,7 @@ function showSlides() {
 
 // FIXED NAVBAR
 // $(document).ready(function(){
-if($(window).width() > 370) {
+if($(window).width() > 500) {
     $('ul').removeClass('mobile-menu');
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
